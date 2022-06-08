@@ -1,0 +1,151 @@
+<!--
+Name:   Parth Patel
+Email:  Parth_Patel17@student.uml.edu
+-->
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+
+body {
+	background-color: #FFFFFF;
+	color: #666666;
+	font-family: Verdana,Arial, sans-serif;
+    background-image: url(ptrbackground.jpg);
+}
+
+
+#content {
+    list-style-image: url('marker.gif');
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+    margin-left: 160px;
+    padding-top: 1px;
+    
+}
+
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #90C7E3;
+    min-width: 600px;
+ }
+
+
+
+#content img {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+
+#content ul {
+    list-style-position: inside;
+}
+
+
+.content {
+    list-style-image: url('marker.gif');
+}
+
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+nav a:visited {
+	color: #000033;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+nav a:link {
+    color: #000033;
+}
+
+nav a:hover{
+    color: #FFFFFF;
+}
+
+
+h1 {
+	background-position: right;
+	color: #FFFFFF;
+	line-height: 210%;
+	height: 70px;
+	font-family: Georgia, serif;
+    background-color: #000033;
+	padding-left: 20px;
+	margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-image: url(sunset.jpg);
+}
+
+nav a {
+	text-decoration: none;
+}
+
+h2 {
+	color: #3399CC;
+	font-family: Georgia, serif;
+}
+nav {
+   font-weight: bold;
+   padding: 6px;
+   float: left;
+   width: 165px;
+   padding: 20px 5px 5px 20px;
+}
+
+
+#nav ul {
+    color: #666666
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+
+
+.resort {
+    font-weight: bold;
+    color: #3399CC;
+    font-size: 1.0em;
+}
+
+
+footer {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: left;
+    padding: 10px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+    margin-left: 160px;
+    padding-top: 16px; 
+    padding-left: 20px;
+    
+}
+
